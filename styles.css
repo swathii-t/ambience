@@ -1,0 +1,159 @@
+body {
+	background-image: url("assets/rain.gif");
+	background-attachment: fixed;
+
+	/* FLEX BOX PROPERTIES */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+
+	/* BOX MODEL PROPERTIES */
+	margin: 0;
+	padding: 0;
+	min-height: 100vh;
+	background-color: #2a4242;
+	color: white;
+}
+
+body>* {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: 'Kalam', cursive;
+}
+
+section {
+	height: 100vh;
+	text-align: center;
+	position: relative;
+}
+
+h1 {
+	font-size: 64px;
+	margin: 0;
+}
+
+h2 {
+	font-size: 32px;
+	margin: 5px;
+	text-decoration: underline overline;
+}
+
+i {
+	color: #e1e1e1;
+	font-style: italic;
+}
+
+u {
+	text-decoration: underline;
+}
+
+nav {
+	color: #fff;
+	height: 80px;
+	width: 100%;
+	max-width: 600px;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+nav a {
+	text-decoration: none;
+	color: #fff;
+	margin: 0 12px;
+}
+
+nav a:hover {
+	background-color: rgba(0, 0, 0, 0.7);
+	padding: 10px;
+	cursor: crosshair;
+}
+
+.info {
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	z-index: 1;
+}
+
+.info .infobox {
+	visibility: hidden;
+	top: 20px;
+	left: 5px;
+	width: 50vh;
+	background-color: rgba(0, 0, 0, 0.7);
+	color: white;
+	border-radius: 5px;
+	padding: 5px 0;
+
+	position: absolute;
+	z-index: 1;
+}
+
+.info:hover .infobox {
+	visibility: visible;
+}
+
+.top {
+	position: absolute;
+	bottom: 5px;
+	right: 5px;
+	z-index: 1;
+}
+
+.top a {
+	color: #fff;
+	font-style: italic;
+	text-decoration: none;
+}
+
+.top a:hover {
+	text-decoration: underline;
+}
+
+#titlescreen {
+	top: 100px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+#titlescreen>div {
+	max-width: 640px;
+	padding: 16px 40px 16px 40px;
+	color: #F4F0E5;
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+#settings {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-bottom: 10px;
+}
+
+#settings a {
+	color: #e1e1e1;
+	font-style: italic;
+	text-decoration: underline;
+}
+
+#settings a:hover {
+	text-decoration: none;
+	cursor: crosshair;
+}
+
+#spotify,
+#sounds,
+#about {
+	color: white;
+	background-color: rgba(0, 0, 0, 0.3);
+	margin: 10px;
+	max-width: 500px;
+}
