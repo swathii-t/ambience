@@ -9,7 +9,7 @@ Back when I first signed up for Superposition V, my first hackathon, I was think
 Ambience allows you to create your perfect atmosphere for relaxing and/or studying by providing you with a customizable space with the most relaxing sounds and a recommended studying playlist.
 
 ## How I built it
-I built it using Qoom, a web development tool I discovered during the Intro to Web Development workshops hosted the week before. 
+I built it using Qoom, a web development tool I discovered during the Intro to Web Development workshops hosted the week before. The languages I used were HTML, CSS, and JavaSript.
 
 ## Challenges I ran into
 I have limited knowledge on HTML and CSS, only some from playing around with it before. I also have zero experience with JavaScript. I'm mostly familiar with Java. So, trying to switch languages and try creating an entire website from scratch did feel a little difficult, especially with the time crunch and having to learn so much in so little time, but by properly utilizing my resources and just adjusting the small details as I went, I was able to create the Ambience we know today.
