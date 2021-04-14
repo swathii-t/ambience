@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>ambience</title>
+		<!--Include styles.css file to this webpage-->
+		<link rel="stylesheet" href="styles.css">
+		<!--Include script.js file to this webpage-->
+		<script type="module" src="script.js"></script>
+		<!--Use custom font from Google font https://fonts.google.com/ -->
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<script type="text/javascript">
+			function changebackground() {
+				var url = document.getElementById('bgchanger')
+					.value;
+				document.getElementsByTagName('body')[0].style.backgroundImage = "url('" + url + "')";
+			}
+		</script>
+		<link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap" rel="stylesheet">
+	</head>
+
+	<body>
+		<div class="info" style="position: fixed;">
+			ⓘ info
+			<span class="infobox">
+				<h2>welcome to ambience</h2>
+				<ul>
+					<li>navigate through our pages using the navigation bar found at the top.</li>
+					<li>click home to return to the title screen.</li>
+					<li>click ambience to enter a scene with no busy text, your safe space for just you.</li>
+					<li>click settings see our suggested music, browse through our collection of calming sounds, and read our about section.</li>
+					<li>to change the background, visit our appearance settings and enter your background url of choice.</li>
+					<li><i>the sky is your limit.</i> play around with ambience in the way you feel best fit.</li>
+				</ul>
+			</span>
+		</div>
+		<div class="top" style="position: fixed;">
+			<a href="#titlescreen">to the top</a>
+		</div>
+		<nav>
+			<a href="#titlescreen">home</a>
+			<a href="#clear">ambience</a>
+			<a href="#settings">settings</a>
+		</nav>
+		<section id="titlescreen">
+			<div>
+				<h1>ambience</h1>
+			</div>
+		</section>
+		<section id="clear">
+			<div>
+
+			</div>
+		</section>
+		<section id="settings">
+			<div id="spotify">
+				<h2>appearance</h2>
+				<input type="text" id="bgchanger" placeholder="Change Background Add URL" />
+				<input type="button" onclick="changebackground();" value="Change!" />
+				<h2>spotify</h2>
+				<iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1DWWQRwui0ExPn" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+			</div>
+			<div id="sounds">
+				<h2>settings</h2>
+				rain<br>
+				<audio src="assets/rainaudio.mp3" controls loop></audio><br>
+				fireplace<br>
+				<audio src="assets/fire.mp3" controls loop></audio><br>
+				thunderstorm<br>
+				<audio src="assets/thunder.mp3" controls loop></audio><br>
+				wind<br>
+				<audio src="assets/wind.mp3" controls loop></audio><br>
+				ocean<br>
+				<audio src="assets/ocean.mp3" controls loop></audio><br>
+				nature<br>
+				<audio src="assets/nature.mp3" controls loop></audio><br>
+			</div>
+			<div id="about">
+				<h2>about</h2>
+				hey! my name is swathi thushiyandan. this project was designed for the superposition v hackathon. this was a project designed to help people around the world to create their safe space. whether they want to fall asleep or just get into a deep study session, <u>ambience</u> is here to help you create your perfect atmosphere.<br>
+				inspired by <a href="imissmycafe.com">imissmycafe</a>.<br>
+				all sounds from <a href="https://orangefreesounds.com">orange free sounds</a>.<br>
+				background from <i>the garden of words (2013)</i>
+			</div>
+		</section>
+		<footer></footer>
+	</body>
+
+</html>
