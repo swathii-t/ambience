@@ -1,4 +1,4 @@
-# ambience
+# Ambience
 The Ultimate Relaxation Tool
 ## Inspiration
 Back when I first signed up for Superposition V, my first hackathon, I was thinking, "Hmm... what would I want my first project to be?" It was around the time of a calculus test that I was studying for and I was listening to some white noise and YouTube and I was like,  "That's it!" I wanted to create a tool that allowed users to create a customizable studying/relaxing sound experience. I wanted to include all of the most common and most relaxing sounds that people use when doing those things, but I also wanted to leave it open to the user to design their page to what they would want to see when studying, whether they want to keep it on screen while studying, or projected onto their wall when sleeping. I later came across a website called IMissMyCafe which was very similar to the vision I had but with a cafe setting. Using all of this, I created Ambience.
